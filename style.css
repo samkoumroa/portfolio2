@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+header{
+    background-color: #FFFF99;
+    width: 100%;
+    line-height: 70px;
+}
+
+header p{
+    color: navy;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+
+.name{
+    display: inline;
+    font-size: 55px;
+    letter-spacing: 10px;
+}
+
+.information h2{
+    margin-top: 10px;
+}
+
+.container1{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border-left: 1px dotted black;
+}
+
+.last_child{
+    border-right: 1px dotted black;
+}
+
+.main{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.icon{
+    height: 150px;
+    width: 150px;
+    border: 5px solid #8B4513;
+    border-radius: 10px;
+    margin: 20px;
+    transition: transform 1s;
+}
+
+.icon:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.person{
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.information1 h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.information1 h2:hover{
+    background-color: #D2B48C;
+}
+
+.one{
+    margin-top: 70px;
+}
+
+footer{
+    text-align: right;
+    background-color: #FFFF99;
+}
